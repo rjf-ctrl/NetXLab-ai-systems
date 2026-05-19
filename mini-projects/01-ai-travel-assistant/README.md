@@ -12,6 +12,10 @@ and compares latency between them.
 - API key validated on startup to fail fast if misconfigured
 
 ## How to run
-1. Add your GOOGLE_API_KEY to a .env file
+1. Add your GOOGLE_API_KEY and PORT to .env file
+   ```
+   GOOGLE_API_KEY=your_api_key
+    API_PORT = your_port_no
+   ```
 2. pip install -r requirements.txt
 3. python main.py
