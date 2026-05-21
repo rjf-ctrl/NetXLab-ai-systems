@@ -49,7 +49,7 @@ So BPF’s role was:
 - Application → syscall → Kernel does work → tracing observes this
 Similar to logs, but much more low-level and real-time. Tracing is closer to attaching sensors inside the operating system.
 
-![eBPF and the kernel](image.png)
+![eBPF and the kernel](images/image.png)
 
 &nbsp;
 
@@ -68,8 +68,8 @@ with XDP:
 
 &nbsp;
 
-![eBPF_defined](image-1.png)
-![eBPF_basically](image-2.png)
+![eBPF_defined](images/image-1.png)&nbsp;
+![eBPF_basically](images/image-2.png)
 
 eBPF allows you to run a sandbox technology within the kernel. like a VM inside the kernel. Allows to extend the kernel without having to compile or load th whole thing again. 
 
