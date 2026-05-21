@@ -16,7 +16,7 @@ i. parameters file and a
 ii. run file, or the code that runs the nural netwok which uses the parameters
 
  - model training ~ data compression (lossy)
- - the neural network predicts the next word in a sequence of words ![neural_network](image1.png)
+ - the neural network predicts the next word in a sequence of words ![neural_network](images/image1.png)
  - the network "dreams internet documents
  - optimize parameters over time to get better word prediction
   
@@ -25,7 +25,7 @@ ii. run file, or the code that runs the nural netwok which uses the parameters
  - we can only develop sufficiently sophisticated ways to evaluate them
  - initially trained on internet documents and such *pre-training*  ->  base model
  -  to finetune anasistant-type llm, the training conditions are kept the same and datset is swapped out (second stage of training) *rlhf: reinforcement learning with human feedback*  -> assistant model
- -  ![training_llms](image2.png)
+ -  ![training_llms](images/image2.png)
  -  a further stage 3 of fine tuning can be a different kind of labels: comparison. person asked to select better responses from diffferent gneraated  responses by the model
   
 
@@ -55,7 +55,7 @@ Looking for this equivalent model of language models.
 - Customization axis of LLMs also being looked into (eg: uploading files, setting conversation style/personality)
   
 - these days, LLMs are the kernel proces of an emerging operating system
-- ![llm_os]](image3.png)
+- ![llm_os]](images/image3.png)
 - RAM equivalent would be the size of context window of the llm
   
 
