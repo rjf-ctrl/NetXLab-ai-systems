@@ -32,7 +32,7 @@ def invoke_with_retry(model, prompt, retries=3, wait=50):
 
 
 flash_model = ChatGroq(model="llama-3.1-8b-instant", api_key=api_key)
-pro_model =  ChatGroq(model="llama-3.1-8b-instant", api_key=api_key)
+pro_model =  ChatGroq(model="llama-3.1-8b-versatile", api_key=api_key)
 
 app = FastAPI()
 
