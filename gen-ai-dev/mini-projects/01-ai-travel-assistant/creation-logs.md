@@ -322,3 +322,9 @@ use this instead of just invoke
 response_flash = invoke_with_retry(flash_model, prompt)
 ```
 
+# Google API paywall
+ Since it turned out that Google API was paywalled, I ended up switching to GroqAPI so i changed the API key in the .env and changed the model, pip installed langchain_groq and use llama instant and versatile and compared the two instead
+- But kept all the variable names the same to pass the test script
+
+ 
+

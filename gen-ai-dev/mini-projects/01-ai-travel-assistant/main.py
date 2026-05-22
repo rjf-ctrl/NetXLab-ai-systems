@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel  
 from dotenv import load_dotenv
-from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_groq import ChatGroq
 import os
 import time 
 import uvicorn
@@ -12,10 +12,10 @@ logger = logging.getLogger(__name__)
 
 
 load_dotenv()
-api_key = os.getenv("GOOGLE_API_KEY")
+api_key = os.getenv("GROQ_API_KEY")
 
 if not api_key:
-    raise RuntimeError("GOOGLE_API_KEY not found in environment. Check your .env file.")
+    raise RuntimeError("GROQ_API_KEY not found in environment. Check your .env file.")
 
 def invoke_with_retry(model, prompt, retries=3, wait=50):
     for attempt in range(retries):
@@ -31,8 +31,8 @@ def invoke_with_retry(model, prompt, retries=3, wait=50):
 
 
 
-flash_model = ChatGoogleGenerativeAI(model="gemini-2.5-flash", google_api_key=api_key)
-pro_model =  ChatGoogleGenerativeAI(model="gemini-2.5-flash", google_api_key=api_key)
+flash_model = ChatGroq(model="llama-3.1-8b-instant", api_key=api_key)
+pro_model =  ChatGroq(model="llama-3.1-8b-instant", api_key=api_key)
 
 app = FastAPI()
 

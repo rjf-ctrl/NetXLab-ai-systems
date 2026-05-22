@@ -1,0 +1,981 @@
+
+======================================================================
+Test Run: 2026-05-21 15:32:35
+======================================================================
+
+
+======================================================================
+Travel Assistant API - Test Suite
+======================================================================
+
+Testing endpoint: http://localhost:8000/travel-assistant
+
+Logging results to: output.txt
+
+
+======================================================================
+Test 1: Tokyo Trip - Valid Request
+======================================================================
+
+Payload:
+{
+  "destination": "Tokyo, Japan",
+  "travel_dates": "May 10 - May 20, 2025",
+  "preferences": "I love sushi, anime, and traditional temples"
+}
+
+======================================================================
+Test Run: 2026-05-21 15:33:45
+======================================================================
+
+
+======================================================================
+Travel Assistant API - Test Suite
+======================================================================
+
+Testing endpoint: http://localhost:8000/travel-assistant
+
+Logging results to: output.txt
+
+
+======================================================================
+Test 1: Tokyo Trip - Valid Request
+======================================================================
+
+Payload:
+{
+  "destination": "Tokyo, Japan",
+  "travel_dates": "May 10 - May 20, 2025",
+  "preferences": "I love sushi, anime, and traditional temples"
+}
+
+======================================================================
+Test Run: 2026-05-22 15:26:37
+======================================================================
+
+
+======================================================================
+Travel Assistant API - Test Suite
+======================================================================
+
+Testing endpoint: http://localhost:8000/travel-assistant
+
+Logging results to: output.txt
+
+
+======================================================================
+Test 1: Tokyo Trip - Valid Request
+======================================================================
+
+Payload:
+{
+  "destination": "Tokyo, Japan",
+  "travel_dates": "May 10 - May 20, 2025",
+  "preferences": "I love sushi, anime, and traditional temples"
+}
+
+======================================================================
+Test Run: 2026-05-22 15:50:23
+======================================================================
+
+
+======================================================================
+Travel Assistant API - Test Suite
+======================================================================
+
+Testing endpoint: http://localhost:8000/travel-assistant
+
+Logging results to: output.txt
+
+
+======================================================================
+Test 1: Tokyo Trip - Valid Request
+======================================================================
+
+Payload:
+{
+  "destination": "Tokyo, Japan",
+  "travel_dates": "May 10 - May 20, 2025",
+  "preferences": "I love sushi, anime, and traditional temples"
+}
+
+Status Code: 200
+
+Full Response:
+{
+  "trip_details": {
+    "destination": "Tokyo, Japan",
+    "travel_dates": "May 10 - May 20, 2025",
+    "preferences": "I love sushi, anime, and traditional temples"
+  },
+  "flash_response": "**Tokyo, Japan Travel Itinerary (May 10 - May 20, 2025)**\n\n**Day 1: May 10 - Arrival in Tokyo**\n\n* Arrive at Tokyo's Narita or Haneda airport\n* Take a train or bus to your hotel (approximately 1-2 hours)\n* Check-in at the **Grand Hyatt Tokyo** (5-star hotel located in Roppongi Hills)\n* Spend the afternoon exploring the nearby Roppongi Hills area, including the Mori Art Museum and the Tokyo City View observatory\n* For dinner, head to **Sushi Saito** (3-Michelin-starred sushi restaurant) for a traditional sushi experience\n\n**Day 2: May 11 - Tokyo's Pop Culture**\n\n* Start the day at the **Ghibli Museum** (dedicated to Studio Ghibli's anime films), located in Mitaka (approximately 30 minutes from central Tokyo by train)\n* Explore the museum's exhibits, including a short film on the history of Ghibli and a collection of anime memorabilia\n* Visit the nearby Inokashira Park for a stroll and a picnic lunch\n* In the evening, head to the **Akihabara** district for a taste of Tokyo's anime and manga culture\n* For dinner, try **Ichiran Akihabara** (famous for their unique, individualized ramen experience)\n\n**Day 3: May 12 - Traditional Temples and Gardens**\n\n* Visit the **Meiji Shrine**, a serene Shinto shrine located in a tranquil forested area (approximately 30 minutes from central Tokyo by train)\n* Explore the shrine's grounds, including the Imperial Palace East Garden and the Meiji Shrine Inner Garden\n* In the afternoon, visit the **Nezu Museum**, which features a beautiful Japanese garden and a collection of Japanese and Asian art\n* For dinner, head to **Tsukiji Fish Market** for a fresh sushi experience at one of the many restaurants in the market\n\n**Day 4: May 13 - Asakusa and Ueno**\n\n* Visit the **Senso-ji Temple** in Asakusa, one of the oldest and most famous temples in Japan (approximately 20 minutes from central Tokyo by train)\n* Explore the nearby Nakamise Shopping Street, a historic shopping street filled with traditional snacks and souvenirs\n* In the afternoon, visit the **Ueno Park** and the **Tokyo National Museum**, which features a collection of Japanese art and artifacts\n* For dinner, try **Tofuya Ukai**, a traditional tofu restaurant with a beautiful garden setting\n\n**Day 5: May 14 - Shinjuku and Harajuku**\n\n* Visit the **Tokyo Metropolitan Government Building** for a free observation deck with great views of the city\n* Explore the nearby **Shinjuku Gyoen National Garden**, a beautiful park with a mix of Japanese, French, and English landscaping\n* In the afternoon, visit the **Harajuku** district, known for its unique fashion and shopping styles\n* For dinner, try **Kawaii Monster Cafe**, a bizarre and entertaining restaurant with a range of themed rooms and performances\n\n**Day 6: May 15 - Day Trip to Nikko**\n\n* Take a day trip to **Nikko**, a UNESCO World Heritage site located approximately 2 hours from Tokyo by train\n* Visit the **Toshogu Shrine**, the final resting place of Tokugawa Ieyasu, the founder of the Tokugawa shogunate\n* Explore the nearby **Rinno-ji Temple** and the **Futarasan Shrine**\n* Return to Tokyo in the evening and enjoy a traditional **Kabuki** performance at the **Kabuki-za Theater**\n\n**Day 7: May 16 - Tokyo's Food Scene**\n\n* Start the day at the **Tsukiji Outer Market** for a sushi-making experience and a chance to try some of the freshest sushi in Tokyo\n* Visit the **Shibuya Crossing**, one of the busiest and most famous intersections in the world\n* Explore the nearby **Shinjuku** district, including the **Shinjuku Golden Gai**, a small alley filled with tiny bars and yakitori restaurants\n* For dinner, try **Sukiyabashi Jiro**, a 3-Michelin-starred sushi restaurant famous for its high-quality sushi and traditional Edomae-style sushi\n\n**Day 8: May 17 - Akihabara and Electric Town**\n\n* Visit the **Akihabara** district, known for its electronic shops and anime culture\n* Explore the **Yodobashi Camera** store, which offers a vast selection of electronics and gadgets\n* Visit the nearby **Mandarake**, a massive anime and manga store with a vast selection of merchandise\n* For dinner, try **Gigazine**, a restaurant that serves a range of Japanese dishes with a focus on seasonal ingredients\n\n**Day 9: May 18 - Day Trip to Kamakura**\n\n* Take a day trip to **Kamakura**, a seaside town located approximately 1 hour from Tokyo by train\n* Visit the **Great Buddha of Kamakura**, a massive bronze statue located in the Kotokuin Temple\n* Explore the nearby **Tsurugaoka Hachiman Shrine** and the **Kamakura Museum**\n* Return to Tokyo in the evening and enjoy a traditional **Japanese bath** experience at the **Grand Hyatt Tokyo's spa**\n\n**Day 10: May 19 - Last Day in Tokyo**\n\n* Spend the day exploring any last-minute sights or shopping for souvenirs\n* Visit the **Shinjuku** district for a final taste of Tokyo's food and shopping scene\n* For dinner, try **Narisawa**, a 2-Michelin-starred restaurant that serves a range of Japanese dishes with a focus on seasonal ingredients\n\n**Day 11: May 20 - Departure**\n\n* Spend the morning shopping for last-minute souvenirs or visiting any last-minute sights\n* Depart for the airport and fly back home\n\n**Accommodations**\n\n* The **Grand Hyatt Tokyo** (5-star hotel located in Roppongi Hills) offers luxurious rooms and a range of amenities, including a spa, fitness center, and several dining options.\n\n**Dining Options**\n\n* Sushi Saito (3-Michelin-starred sushi restaurant)\n* Ichiran Akihabara (famous for their unique, individualized ramen experience)\n* Tofuya Ukai (traditional tofu restaurant with a beautiful garden setting)\n* Kawaii Monster Cafe (bizarre and entertaining restaurant with a range of themed rooms and performances)\n* Sukiyabashi Jiro (3-Michelin-starred sushi restaurant famous for its high-quality sushi and traditional Edomae-style sushi)\n* Gigazine (restaurant that serves a range of Japanese dishes with a focus on seasonal ingredients)\n* Narisawa (2-Michelin-starred restaurant that serves a range of Japanese dishes with a focus on seasonal ingredients)\n\n**Transportation**\n\n* The trip will include train tickets for all day trips and some local transportation (approximately \u00a51,000-\u00a52,000 per person per day)\n* The Grand Hyatt Tokyo offers a range of transportation options, including a shuttle bus to and from the airport.\n\n**Budget Breakdown**\n\n* Accommodations: \u00a5200,000-\u00a5300,000 per person for the entire 11-day trip\n* Transportation: \u00a510,000-\u00a520,000 per person for the entire 11-day trip\n* Food and drink: \u00a550,000-\u00a5100,000 per person for the entire 11-day trip\n* Activities and entrance fees: \u00a520,000-\u00a550,000 per person for the entire 11-day trip\n* Total: \u00a5280,000-\u00a5470,000 per person for the entire 11-day trip\n\nNote: Prices are estimates and may vary depending on the time of year, availability, and other factors.",
+  "pro_response": "**Tokyo Travel Itinerary (May 10-20, 2025)**\n\n**Day 1-2: Arrival and Exploring Shinjuku**\n\n- Arrive at Tokyo Narita or Haneda airport\n- Check-in at Hotel Gajoen Tokyo (Shinjuku) - 5-star hotel with traditional Japanese art and architecture\n- Visit Tokyo Metropolitan Government Building for panoramic views of the city\n- Explore Shinjuku Gyoen National Garden for a serene stroll\n- Enjoy dinner at Sushi Saito (3-Michelin stars) for a luxurious sushi experience\n\n**Day 3: Anime and Pop Culture**\n\n- Visit Akihabara (Electric Town) for anime and manga shopping\n- Explore Mandarake complex for a vast selection of anime and manga merchandise\n- Visit the Ghibli Museum ( tickets must be purchased in advance) for a showcase of Studio Ghibli's works\n- Enjoy dinner at Toriki ( Shinjuku) for a modern take on traditional Japanese cuisine\n\n**Day 4: Traditional Temples and Shrines**\n\n- Visit Senso-ji Temple (Asakusa) for a historic and bustling atmosphere\n- Explore the nearby Nakamise Shopping Street for traditional snacks and souvenirs\n- Visit the Meiji Shrine (Yoyogi Park) for a peaceful and serene experience\n- Enjoy dinner at Narisawa (2-Michelin stars) for a focus on seasonal and local ingredients\n\n**Day 5: Sushi and Food Adventure**\n\n- Visit the Tsukiji Outer Market for sushi and seafood\n- Take a sushi-making class at the Sushi School ( tickets must be purchased in advance)\n- Explore the trendy Harajuku district for fashionable and eclectic shopping\n- Enjoy dinner at Narisawa (2-Michelin stars) for a focus on seasonal and local ingredients\n\n**Day 6-7: Imperial Palace and Sumo Wrestling**\n\n- Visit the Imperial Palace East Garden for a stroll amidst beautiful gardens\n- Explore the nearby Kitanomaru Park for a scenic walk\n- Attend a sumo wrestling tournament (tickets must be purchased in advance) at the Ryogoku Kokugikan\n- Enjoy dinner at Sushi no Midori (2-Michelin stars) for a focus on sustainable and locally sourced sushi\n\n**Day 8-10: Day Trips and Relaxation**\n\n- Take a day trip to Nikko for a visit to the Toshogu Shrine (UNESCO World Heritage site)\n- Visit the Odaiba Island for shopping and entertainment\n- Relax at the Otemba Onsen hot spring for a rejuvenating experience\n- Enjoy dinner at the Michelin-starred, Narisawa for a focus on seasonal and local ingredients\n\n**Day 11-12: Anime and Pop Culture**\n\n- Visit the Pok\u00e9mon Center Mega Tokyo for a vast selection of Pok\u00e9mon merchandise\n- Explore the Tokyo Anime Center for a showcase of anime and manga\n- Visit the Gundam Unicorn statue for a unique photo opportunity\n- Enjoy dinner at Toriki ( Shinjuku) for a modern take on traditional Japanese cuisine\n\n**Day 13-14: Traditional Temples and Shrines**\n\n- Visit the Kiyosumi Garden for a serene and peaceful atmosphere\n- Explore the nearby Tokyo National Museum for a showcase of Japanese art and culture\n- Visit the Nezu Museum for a focus on Japanese and Asian art\n- Enjoy dinner at the Michelin-starred, Narisawa for a focus on seasonal and local ingredients\n\n**Day 15-16: Sushi and Food Adventure**\n\n- Visit the Sushi Dai (Tsukiji Outer Market) for a fresh and seasonal sushi experience\n- Take a food tour of the Tsukiji Outer Market for a behind-the-scenes look at sushi-making\n- Explore the trendy Shimokitazawa district for fashionable and eclectic shopping\n- Enjoy dinner at Sushi no Midori (2-Michelin stars) for a focus on sustainable and locally sourced sushi\n\n**Day 17-18: Day Trips and Relaxation**\n\n- Take a day trip to Kamakura for a visit to the Great Buddha statue\n- Visit the Enoshima Island for a relaxing beach day\n- Relax at the Otemba Onsen hot spring for a rejuvenating experience\n- Enjoy dinner at the Michelin-starred, Narisawa for a focus on seasonal and local ingredients\n\n**Day 19-20: Departure**\n\n- Spend the morning shopping for last-minute souvenirs\n- Depart from Tokyo Narita or Haneda airport for your return journey.",
+  "comparison": {
+    "flash_latency_ms": 4318.27,
+    "pro_latency_ms": 4330.12,
+    "summary": "Flash responded in 4318.27ms, Pro responded in 4330.12ms. Flash was faster."
+  }
+}
+
+--- Flash Response ---
+**Tokyo, Japan Travel Itinerary (May 10 - May 20, 2025)**
+
+**Day 1: May 10 - Arrival in Tokyo**
+
+* Arrive at Tokyo's Narita or Haneda airport
+* Take a train or bus to your hotel (approximately 1-2 hours)
+* Check-in at the **Grand Hyatt Tokyo** (5-star hotel located in Roppongi Hills)
+* Spend the afternoon exploring the nearby Roppongi Hills area, including the Mori Art Museum and the Tokyo City View observatory
+* For dinner, head to **Sushi Saito** (3-Michelin-starred sushi restaurant) for a traditional sushi experience
+
+**Day 2: May 11 - Tokyo's Pop Culture**
+
+* Start the day at the **Ghibli Museum** (dedicated to Studio Ghibli's anime films), located in Mitaka (approximately 30 minutes from central Tokyo by train)
+* Explore the museum's exhibits, including a short film on the history of Ghibli and a collection of anime memorabilia
+* Visit the nearby Inokashira Park for a stroll and a picnic lunch
+* In the evening, head to the **Akihabara** district for a taste of Tokyo's anime and manga culture
+* For dinner, try **Ichiran Akihabara** (famous for their unique, individualized ramen experience)
+
+**Day 3: May 12 - Traditional Temples and Gardens**
+
+* Visit the **Meiji Shrine**, a serene Shinto shrine located in a tranquil forested area (approximately 30 minutes from central Tokyo by train)
+* Explore the shrine's grounds, including the Imperial Palace East Garden and the Meiji Shrine Inner Garden
+* In the afternoon, visit the **Nezu Museum**, which features a beautiful Japanese garden and a collection of Japanese and Asian art
+* For dinner, head to **Tsukiji Fish Market** for a fresh sushi experience at one of the many restaurants in the market
+
+**Day 4: May 13 - Asakusa and Ueno**
+
+* Visit the **Senso-ji Temple** in Asakusa, one of the oldest and most famous temples in Japan (approximately 20 minutes from central Tokyo by train)
+* Explore the nearby Nakamise Shopping Street, a historic shopping street filled with traditional snacks and souvenirs
+* In the afternoon, visit the **Ueno Park** and the **Tokyo National Museum**, which features a collection of Japanese art and artifacts
+* For dinner, try **Tofuya Ukai**, a traditional tofu restaurant with a beautiful garden setting
+
+**Day 5: May 14 - Shinjuku and Harajuku**
+
+* Visit the **Tokyo Metropolitan Government Building** for a free observation deck with great views of the city
+* Explore the nearby **Shinjuku Gyoen National Garden**, a beautiful park with a mix of Japanese, French, and English landscaping
+* In the afternoon, visit the **Harajuku** district, known for its unique fashion and shopping styles
+* For dinner, try **Kawaii Monster Cafe**, a bizarre and entertaining restaurant with a range of themed rooms and performances
+
+**Day 6: May 15 - Day Trip to Nikko**
+
+* Take a day trip to **Nikko**, a UNESCO World Heritage site located approximately 2 hours from Tokyo by train
+* Visit the **Toshogu Shrine**, the final resting place of Tokugawa Ieyasu, the founder of the Tokugawa shogunate
+* Explore the nearby **Rinno-ji Temple** and the **Futarasan Shrine**
+* Return to Tokyo in the evening and enjoy a traditional **Kabuki** performance at the **Kabuki-za Theater**
+
+**Day 7: May 16 - Tokyo's Food Scene**
+
+* Start the day at the **Tsukiji Outer Market** for a sushi-making experience and a chance to try some of the freshest sushi in Tokyo
+* Visit the **Shibuya Crossing**, one of the busiest and most famous intersections in the world
+* Explore the nearby **Shinjuku** district, including the **Shinjuku Golden Gai**, a small alley filled with tiny bars and yakitori restaurants
+* For dinner, try **Sukiyabashi Jiro**, a 3-Michelin-starred sushi restaurant famous for its high-quality sushi and traditional Edomae-style sushi
+
+**Day 8: May 17 - Akihabara and Electric Town**
+
+* Visit the **Akihabara** district, known for its electronic shops and anime culture
+* Explore the **Yodobashi Camera** store, which offers a vast selection of electronics and gadgets
+* Visit the nearby **Mandarake**, a massive anime and manga store with a vast selection of merchandise
+* For dinner, try **Gigazine**, a restaurant that serves a range of Japanese dishes with a focus on seasonal ingredients
+
+**Day 9: May 18 - Day Trip to Kamakura**
+
+* Take a day trip to **Kamakura**, a seaside town located approximately 1 hour from Tokyo by train
+* Visit the **Great Buddha of Kamakura**, a massive bronze statue located in the Kotokuin Temple
+* Explore the nearby **Tsurugaoka Hachiman Shrine** and the **Kamakura Museum**
+* Return to Tokyo in the evening and enjoy a traditional **Japanese bath** experience at the **Grand Hyatt Tokyo's spa**
+
+**Day 10: May 19 - Last Day in Tokyo**
+
+* Spend the day exploring any last-minute sights or shopping for souvenirs
+* Visit the **Shinjuku** district for a final taste of Tokyo's food and shopping scene
+* For dinner, try **Narisawa**, a 2-Michelin-starred restaurant that serves a range of Japanese dishes with a focus on seasonal ingredients
+
+**Day 11: May 20 - Departure**
+
+* Spend the morning shopping for last-minute souvenirs or visiting any last-minute sights
+* Depart for the airport and fly back home
+
+**Accommodations**
+
+* The **Grand Hyatt Tokyo** (5-star hotel located in Roppongi Hills) offers luxurious rooms and a range of amenities, including a spa, fitness center, and several dining options.
+
+**Dining Options**
+
+* Sushi Saito (3-Michelin-starred sushi restaurant)
+* Ichiran Akihabara (famous for their unique, individualized ramen experience)
+* Tofuya Ukai (traditional tofu restaurant with a beautiful garden setting)
+* Kawaii Monster Cafe (bizarre and entertaining restaurant with a range of themed rooms and performances)
+* Sukiyabashi Jiro (3-Michelin-starred sushi restaurant famous for its high-quality sushi and traditional Edomae-style sushi)
+* Gigazine (restaurant that serves a range of Japanese dishes with a focus on seasonal ingredients)
+* Narisawa (2-Michelin-starred restaurant that serves a range of Japanese dishes with a focus on seasonal ingredients)
+
+**Transportation**
+
+* The trip will include train tickets for all day trips and some local transportation (approximately ¥1,000-¥2,000 per person per day)
+* The Grand Hyatt Tokyo offers a range of transportation options, including a shuttle bus to and from the airport.
+
+**Budget Breakdown**
+
+* Accommodations: ¥200,000-¥300,000 per person for the entire 11-day trip
+* Transportation: ¥10,000-¥20,000 per person for the entire 11-day trip
+* Food and drink: ¥50,000-¥100,000 per person for the entire 11-day trip
+* Activities and entrance fees: ¥20,000-¥50,000 per person for the entire 11-day trip
+* Total: ¥280,000-¥470,000 per person for the entire 11-day trip
+
+Note: Prices are estimates and may vary depending on the time of year, availability, and other factors.
+
+--- Pro Response ---
+**Tokyo Travel Itinerary (May 10-20, 2025)**
+
+**Day 1-2: Arrival and Exploring Shinjuku**
+
+- Arrive at Tokyo Narita or Haneda airport
+- Check-in at Hotel Gajoen Tokyo (Shinjuku) - 5-star hotel with traditional Japanese art and architecture
+- Visit Tokyo Metropolitan Government Building for panoramic views of the city
+- Explore Shinjuku Gyoen National Garden for a serene stroll
+- Enjoy dinner at Sushi Saito (3-Michelin stars) for a luxurious sushi experience
+
+**Day 3: Anime and Pop Culture**
+
+- Visit Akihabara (Electric Town) for anime and manga shopping
+- Explore Mandarake complex for a vast selection of anime and manga merchandise
+- Visit the Ghibli Museum ( tickets must be purchased in advance) for a showcase of Studio Ghibli's works
+- Enjoy dinner at Toriki ( Shinjuku) for a modern take on traditional Japanese cuisine
+
+**Day 4: Traditional Temples and Shrines**
+
+- Visit Senso-ji Temple (Asakusa) for a historic and bustling atmosphere
+- Explore the nearby Nakamise Shopping Street for traditional snacks and souvenirs
+- Visit the Meiji Shrine (Yoyogi Park) for a peaceful and serene experience
+- Enjoy dinner at Narisawa (2-Michelin stars) for a focus on seasonal and local ingredients
+
+**Day 5: Sushi and Food Adventure**
+
+- Visit the Tsukiji Outer Market for sushi and seafood
+- Take a sushi-making class at the Sushi School ( tickets must be purchased in advance)
+- Explore the trendy Harajuku district for fashionable and eclectic shopping
+- Enjoy dinner at Narisawa (2-Michelin stars) for a focus on seasonal and local ingredients
+
+**Day 6-7: Imperial Palace and Sumo Wrestling**
+
+- Visit the Imperial Palace East Garden for a stroll amidst beautiful gardens
+- Explore the nearby Kitanomaru Park for a scenic walk
+- Attend a sumo wrestling tournament (tickets must be purchased in advance) at the Ryogoku Kokugikan
+- Enjoy dinner at Sushi no Midori (2-Michelin stars) for a focus on sustainable and locally sourced sushi
+
+**Day 8-10: Day Trips and Relaxation**
+
+- Take a day trip to Nikko for a visit to the Toshogu Shrine (UNESCO World Heritage site)
+- Visit the Odaiba Island for shopping and entertainment
+- Relax at the Otemba Onsen hot spring for a rejuvenating experience
+- Enjoy dinner at the Michelin-starred, Narisawa for a focus on seasonal and local ingredients
+
+**Day 11-12: Anime and Pop Culture**
+
+- Visit the Pokémon Center Mega Tokyo for a vast selection of Pokémon merchandise
+- Explore the Tokyo Anime Center for a showcase of anime and manga
+- Visit the Gundam Unicorn statue for a unique photo opportunity
+- Enjoy dinner at Toriki ( Shinjuku) for a modern take on traditional Japanese cuisine
+
+**Day 13-14: Traditional Temples and Shrines**
+
+- Visit the Kiyosumi Garden for a serene and peaceful atmosphere
+- Explore the nearby Tokyo National Museum for a showcase of Japanese art and culture
+- Visit the Nezu Museum for a focus on Japanese and Asian art
+- Enjoy dinner at the Michelin-starred, Narisawa for a focus on seasonal and local ingredients
+
+**Day 15-16: Sushi and Food Adventure**
+
+- Visit the Sushi Dai (Tsukiji Outer Market) for a fresh and seasonal sushi experience
+- Take a food tour of the Tsukiji Outer Market for a behind-the-scenes look at sushi-making
+- Explore the trendy Shimokitazawa district for fashionable and eclectic shopping
+- Enjoy dinner at Sushi no Midori (2-Michelin stars) for a focus on sustainable and locally sourced sushi
+
+**Day 17-18: Day Trips and Relaxation**
+
+- Take a day trip to Kamakura for a visit to the Great Buddha statue
+- Visit the Enoshima Island for a relaxing beach day
+- Relax at the Otemba Onsen hot spring for a rejuvenating experience
+- Enjoy dinner at the Michelin-starred, Narisawa for a focus on seasonal and local ingredients
+
+**Day 19-20: Departure**
+
+- Spend the morning shopping for last-minute souvenirs
+- Depart from Tokyo Narita or Haneda airport for your return journey.
+
+--- Comparison ---
+{
+  "flash_latency_ms": 4318.27,
+  "pro_latency_ms": 4330.12,
+  "summary": "Flash responded in 4318.27ms, Pro responded in 4330.12ms. Flash was faster."
+}
+
+[PASSED] - Valid response structure
+   Flash Latency: 4318.27ms
+   Pro Latency: 4330.12ms
+
+======================================================================
+Test 2: Paris Trip - Valid Request
+======================================================================
+
+Payload:
+{
+  "destination": "Paris, France",
+  "travel_dates": "June 1 - June 10, 2025",
+  "preferences": "Art museums, French cuisine, romantic spots"
+}
+
+Status Code: 200
+
+Full Response:
+{
+  "trip_details": {
+    "destination": "Paris, France",
+    "travel_dates": "June 1 - June 10, 2025",
+    "preferences": "Art museums, French cuisine, romantic spots"
+  },
+  "flash_response": "**Parisian Adventure Awaits: A 9-Day Itinerary for Art Lovers, Foodies, and Romantics**\n\n**Day 1: June 1 - Arrival and Exploration of Montmartre**\n\n* **Accommodation:** Check-in at the 5-star Hotel Le Walt (Montmartre) for a charming and intimate experience. This boutique hotel offers elegant rooms, a beautiful courtyard, and a prime location in the heart of Montmartre.\n* **Morning:** Start your day with a leisurely stroll through the picturesque streets of Montmartre, exploring the charming artist studios, cafes, and shops.\n* **Lunch:** Enjoy a delightful French meal at Le Comptoir du Relais, a cozy bistro serving traditional dishes like steak tartare and confit de canard.\n* **Afternoon:** Visit the Basilique du Sacr\u00e9-C\u0153ur, a stunning white church perched on a hill, offering breathtaking views of the city.\n* **Evening:** Wander along the Seine River, taking in the city's romantic atmosphere, and stop at the famous Place du Tertre for a drink and people-watching.\n\n**Day 2: June 2 - Art Museums and Iconic Landmarks**\n\n* **Morning:** Visit the Mus\u00e9e d'Orsay, home to an impressive collection of Impressionist and Post-Impressionist art, including works by Monet, Renoir, and Van Gogh.\n* **Lunch:** Savor a delicious meal at Le Grand Vefour, a historic restaurant in the heart of Paris, serving classic French cuisine.\n* **Afternoon:** Take a scenic stroll through the Tuileries Garden, a beautiful green oasis in the heart of the city, and visit the iconic Eiffel Tower for a breathtaking view of Paris.\n* **Evening:** Enjoy a Seine River cruise, offering a unique perspective on the city's landmarks and bridges.\n\n**Day 3: June 3 - Louvre Museum and Royal Palace**\n\n* **Morning:** Visit the world-famous Louvre Museum, home to an impressive collection of art and artifacts, including the Mona Lisa.\n* **Lunch:** Treat yourself to a gourmet meal at Le Jules Verne, located on the second floor of the Eiffel Tower, offering stunning views of the city.\n* **Afternoon:** Explore the stunning Royal Palace of Versailles, a former royal residence with opulent decorations and gardens.\n* **Evening:** Enjoy a dinner of haute cuisine at Le Meurice, a luxurious restaurant serving contemporary French cuisine.\n\n**Day 4: June 4 - Montparnasse and Saint-Germain-des-Pr\u00e9s**\n\n* **Morning:** Visit the Mus\u00e9e Rodin, a museum showcasing the works of French sculptor Auguste Rodin, with a beautiful garden and stunning views of the city.\n* **Lunch:** Enjoy a delicious meal at Le Relais de l'Entrec\u00f4te, a classic Parisian bistro serving high-quality meat dishes.\n* **Afternoon:** Explore the charming neighborhood of Saint-Germain-des-Pr\u00e9s, known for its upscale boutiques, art galleries, and historic cafes.\n* **Evening:** Enjoy a drink at the iconic Caf\u00e9 de Flore, a legendary cafe where intellectuals and artists have gathered for centuries.\n\n**Day 5: June 5 - Champagne and French Countryside**\n\n* **Morning:** Take a day trip to the Champagne region, visiting a local vineyard and learning about the art of champagne-making.\n* **Lunch:** Enjoy a picnic lunch in the beautiful French countryside, surrounded by vineyards and rolling hills.\n* **Afternoon:** Visit the charming town of Reims, with its stunning cathedral and picturesque streets.\n* **Evening:** Return to Paris and enjoy a dinner of traditional French cuisine at Le Grand Colbert.\n\n**Day 6: June 6 - Palace of Versailles and Royal Gardens**\n\n* **Morning:** Visit the Palace of Versailles, a former royal residence with opulent decorations and stunning gardens.\n* **Lunch:** Enjoy a picnic lunch in the palace gardens, surrounded by beautiful fountains and sculptures.\n* **Afternoon:** Explore the stunning Royal Gardens, a beautiful green oasis in the heart of the palace.\n* **Evening:** Enjoy a dinner of gourmet cuisine at Le Bristol, a luxurious restaurant serving contemporary French cuisine.\n\n**Day 7: June 7 - Romantic Seine River Cruise**\n\n* **Morning:** Take a scenic Seine River cruise, offering a unique perspective on the city's landmarks and bridges.\n* **Lunch:** Enjoy a delicious meal at Le Cinq, a luxurious restaurant serving contemporary French cuisine.\n* **Afternoon:** Explore the charming neighborhood of Le Marais, known for its trendy boutiques, art galleries, and historic cafes.\n* **Evening:** Enjoy a romantic dinner at Le Grand Vefour, a historic restaurant in the heart of Paris.\n\n**Day 8: June 8 - Street Art and Markets**\n\n* **Morning:** Explore the charming neighborhood of Belleville, known for its street art, independent boutiques, and lively markets.\n* **Lunch:** Enjoy a delicious meal at Le Loir dans la Thei\u00e8re, a cozy bistro serving traditional French cuisine.\n* **Afternoon:** Visit the iconic March\u00e9 aux Puces de Saint-Ouen, a bustling flea market offering a wide range of antiques, vintage clothing, and souvenirs.\n* **Evening:** Enjoy a dinner of gourmet cuisine at Le Petit Ch\u00e2telet, a luxurious restaurant serving contemporary French cuisine.\n\n**Day 9: June 9 - Farewell to Paris**\n\n* **Morning:** Visit the iconic Notre-Dame Cathedral, a beautiful and historic church that has been a symbol of Paris for centuries.\n* **Lunch:** Enjoy a farewell meal at Le Grand Vefour, a historic restaurant in the heart of Paris.\n* **Afternoon:** Spend some time shopping for souvenirs or exploring a new neighborhood.\n* **Evening:** Depart for the airport and head home, with memories of a romantic and unforgettable trip to Paris.\n\n**Additional Recommendations:**\n\n* Take a cooking class to learn the art of traditional French cuisine.\n* Visit the charming neighborhood of Le Marais, known for its trendy boutiques, art galleries, and historic cafes.\n* Explore the stunning Royal Gardens, a beautiful green oasis in the heart of the Palace of Versailles.\n* Enjoy a romantic dinner at Le Grand Vefour, a historic restaurant in the heart of Paris.\n\n**Budget Breakdown:**\n\n* Accommodation: $2,000 (avg. $222 per night for 9 nights)\n* Food and drink: $1,500 (avg. $167 per day for meals and drinks)\n* Transportation: $200 (avg. $22 per day for metro tickets and Seine River cruise)\n* Activities: $800 (avg. $89 per day for museums, palace visits, and other attractions)\n* Total: $4,300\n\nNote: The budget breakdown is an estimate and may vary depending on individual preferences and exchange rates.",
+  "pro_response": "**Paris Travel Itinerary (June 1-10, 2025)**\n\n**Accommodations:**\n\n* Hotel Le Walt (4-star): 8, Rue de l'Abbe de l'Epee, 75005 Paris (June 1-5)\n* Hotel Plaza Athenee (5-star): 25, Avenue Montaigne, 75008 Paris (June 6-10)\n\n**Day 1: June 1 - Arrival and Exploration**\n\n* Arrive at Charles de Gaulle Airport\n* Check-in at Hotel Le Walt\n* Visit the nearby Luxembourg Gardens (Garden of Luxembourg)\n* Enjoy a Seine River cruise at sunset\n* Dinner at Le Comptoir du Relais (French bistro)\n\n**Day 2: June 2 - Art Museums**\n\n* Visit the Louvre Museum (open from 9:00 AM)\n* See the Mona Lisa and other famous works\n* Lunch at Le Grand Vefour (historic restaurant)\n* Visit the Orsay Museum (open from 9:30 AM)\n* Dinner at Le Petit Ch\u00e2telet (French cuisine)\n\n**Day 3: June 3 - Montmartre and Sacre-Coeur**\n\n* Explore the charming neighborhood of Montmartre\n* Visit the Basilica of Sacre-Coeur perched on a hill\n* Lunch at Le Consulat (French bistro)\n* Visit the Mus\u00e9e de Montmartre (open from 10:00 AM)\n* Dinner at Le Grand Colbert (French cuisine)\n\n**Day 4: June 4 - Palace of Versailles**\n\n* Take a day trip to the Palace of Versailles (book tickets in advance)\n* Explore the opulent palace and gardens\n* Lunch at La Petite Venise (French cuisine)\n* Return to Paris in the evening\n* Dinner at Le Jules Verne (French cuisine, Michelin-starred)\n\n**Day 5: June 5 - Notre-Dame and Sainte-Chapelle**\n\n* Visit the iconic Notre-Dame Cathedral (open from 8:00 AM)\n* Explore the nearby Sainte-Chapelle (open from 9:00 AM)\n* Lunch at Le Pied de Cochon (French cuisine)\n* Visit the Mus\u00e9e d'Orsay's Impressionist collection (open from 9:30 AM)\n* Dinner at Le Grand Vefour (historic restaurant)\n\n**Day 6: June 6 - Check-in at Hotel Plaza Athenee**\n\n* Check-out of Hotel Le Walt\n* Check-in at Hotel Plaza Athenee\n* Visit the nearby Eiffel Tower (book tickets in advance)\n* Enjoy a champagne dinner at La Terrasse (hotel's rooftop restaurant)\n\n**Day 7: June 7 - Champs-\u00c9lys\u00e9es and Eiffel Tower**\n\n* Visit the famous Champs-\u00c9lys\u00e9es avenue\n* Explore the Eiffel Tower's grounds and take in the views\n* Lunch at Le Relais de l'Entrec\u00f4te (French bistro)\n* Visit the nearby Mus\u00e9e des Arts D\u00e9coratifs (open from 11:00 AM)\n* Dinner at Le Meurice (French cuisine, Michelin-starred)\n\n**Day 8: June 8 - Romantic Spots**\n\n* Visit the beautiful Tuileries Garden\n* Explore the charming neighborhood of Le Marais\n* Lunch at Le Loir dans la Thei\u00e8re (French bistro)\n* Visit the Mus\u00e9e Carnavalet (open from 10:00 AM)\n* Dinner at Le Grand Colbert (French cuisine)\n\n**Day 9: June 9 - Markets and Food**\n\n* Visit the famous March\u00e9 aux Puces de Saint-Ouen (flea market)\n* Explore the bustling March\u00e9 d'Aligre (food and antiques market)\n* Lunch at Le Pied de Cochon (French cuisine)\n* Visit the nearby Mus\u00e9e Rodin (open from 10:00 AM)\n* Dinner at Le Jules Verne (French cuisine, Michelin-starred)\n\n**Day 10: June 10 - Departure**\n\n* Spend the morning shopping for souvenirs or visiting a museum\n* Depart for Charles de Gaulle Airport\n\n**Budget Breakdown:**\n\n* Accommodations (9 nights): \u20ac3,500\n* Food and drink: \u20ac1,500\n* Transportation: \u20ac200\n* Attractions and activities: \u20ac800\n* Total: \u20ac6,000\n\n**Tips and Recommendations:**\n\n* Book tickets and reservations in advance for popular attractions and restaurants.\n* Consider purchasing a Paris Museum Pass for skip-the-line access to many museums.\n* Don't forget to try some French pastries and desserts, such as croissants, macarons, and cr\u00e8me br\u00fbl\u00e9e.\n* Explore the charming neighborhoods and streets of Paris, such as Montmartre, Le Marais, and Saint-Germain-des-Pr\u00e9s.",
+  "comparison": {
+    "flash_latency_ms": 2963.68,
+    "pro_latency_ms": 2245.98,
+    "summary": "Flash responded in 2963.68ms, Pro responded in 2245.98ms. Pro was faster."
+  }
+}
+
+--- Flash Response ---
+**Parisian Adventure Awaits: A 9-Day Itinerary for Art Lovers, Foodies, and Romantics**
+
+**Day 1: June 1 - Arrival and Exploration of Montmartre**
+
+* **Accommodation:** Check-in at the 5-star Hotel Le Walt (Montmartre) for a charming and intimate experience. This boutique hotel offers elegant rooms, a beautiful courtyard, and a prime location in the heart of Montmartre.
+* **Morning:** Start your day with a leisurely stroll through the picturesque streets of Montmartre, exploring the charming artist studios, cafes, and shops.
+* **Lunch:** Enjoy a delightful French meal at Le Comptoir du Relais, a cozy bistro serving traditional dishes like steak tartare and confit de canard.
+* **Afternoon:** Visit the Basilique du Sacré-Cœur, a stunning white church perched on a hill, offering breathtaking views of the city.
+* **Evening:** Wander along the Seine River, taking in the city's romantic atmosphere, and stop at the famous Place du Tertre for a drink and people-watching.
+
+**Day 2: June 2 - Art Museums and Iconic Landmarks**
+
+* **Morning:** Visit the Musée d'Orsay, home to an impressive collection of Impressionist and Post-Impressionist art, including works by Monet, Renoir, and Van Gogh.
+* **Lunch:** Savor a delicious meal at Le Grand Vefour, a historic restaurant in the heart of Paris, serving classic French cuisine.
+* **Afternoon:** Take a scenic stroll through the Tuileries Garden, a beautiful green oasis in the heart of the city, and visit the iconic Eiffel Tower for a breathtaking view of Paris.
+* **Evening:** Enjoy a Seine River cruise, offering a unique perspective on the city's landmarks and bridges.
+
+**Day 3: June 3 - Louvre Museum and Royal Palace**
+
+* **Morning:** Visit the world-famous Louvre Museum, home to an impressive collection of art and artifacts, including the Mona Lisa.
+* **Lunch:** Treat yourself to a gourmet meal at Le Jules Verne, located on the second floor of the Eiffel Tower, offering stunning views of the city.
+* **Afternoon:** Explore the stunning Royal Palace of Versailles, a former royal residence with opulent decorations and gardens.
+* **Evening:** Enjoy a dinner of haute cuisine at Le Meurice, a luxurious restaurant serving contemporary French cuisine.
+
+**Day 4: June 4 - Montparnasse and Saint-Germain-des-Prés**
+
+* **Morning:** Visit the Musée Rodin, a museum showcasing the works of French sculptor Auguste Rodin, with a beautiful garden and stunning views of the city.
+* **Lunch:** Enjoy a delicious meal at Le Relais de l'Entrecôte, a classic Parisian bistro serving high-quality meat dishes.
+* **Afternoon:** Explore the charming neighborhood of Saint-Germain-des-Prés, known for its upscale boutiques, art galleries, and historic cafes.
+* **Evening:** Enjoy a drink at the iconic Café de Flore, a legendary cafe where intellectuals and artists have gathered for centuries.
+
+**Day 5: June 5 - Champagne and French Countryside**
+
+* **Morning:** Take a day trip to the Champagne region, visiting a local vineyard and learning about the art of champagne-making.
+* **Lunch:** Enjoy a picnic lunch in the beautiful French countryside, surrounded by vineyards and rolling hills.
+* **Afternoon:** Visit the charming town of Reims, with its stunning cathedral and picturesque streets.
+* **Evening:** Return to Paris and enjoy a dinner of traditional French cuisine at Le Grand Colbert.
+
+**Day 6: June 6 - Palace of Versailles and Royal Gardens**
+
+* **Morning:** Visit the Palace of Versailles, a former royal residence with opulent decorations and stunning gardens.
+* **Lunch:** Enjoy a picnic lunch in the palace gardens, surrounded by beautiful fountains and sculptures.
+* **Afternoon:** Explore the stunning Royal Gardens, a beautiful green oasis in the heart of the palace.
+* **Evening:** Enjoy a dinner of gourmet cuisine at Le Bristol, a luxurious restaurant serving contemporary French cuisine.
+
+**Day 7: June 7 - Romantic Seine River Cruise**
+
+* **Morning:** Take a scenic Seine River cruise, offering a unique perspective on the city's landmarks and bridges.
+* **Lunch:** Enjoy a delicious meal at Le Cinq, a luxurious restaurant serving contemporary French cuisine.
+* **Afternoon:** Explore the charming neighborhood of Le Marais, known for its trendy boutiques, art galleries, and historic cafes.
+* **Evening:** Enjoy a romantic dinner at Le Grand Vefour, a historic restaurant in the heart of Paris.
+
+**Day 8: June 8 - Street Art and Markets**
+
+* **Morning:** Explore the charming neighborhood of Belleville, known for its street art, independent boutiques, and lively markets.
+* **Lunch:** Enjoy a delicious meal at Le Loir dans la Theière, a cozy bistro serving traditional French cuisine.
+* **Afternoon:** Visit the iconic Marché aux Puces de Saint-Ouen, a bustling flea market offering a wide range of antiques, vintage clothing, and souvenirs.
+* **Evening:** Enjoy a dinner of gourmet cuisine at Le Petit Châtelet, a luxurious restaurant serving contemporary French cuisine.
+
+**Day 9: June 9 - Farewell to Paris**
+
+* **Morning:** Visit the iconic Notre-Dame Cathedral, a beautiful and historic church that has been a symbol of Paris for centuries.
+* **Lunch:** Enjoy a farewell meal at Le Grand Vefour, a historic restaurant in the heart of Paris.
+* **Afternoon:** Spend some time shopping for souvenirs or exploring a new neighborhood.
+* **Evening:** Depart for the airport and head home, with memories of a romantic and unforgettable trip to Paris.
+
+**Additional Recommendations:**
+
+* Take a cooking class to learn the art of traditional French cuisine.
+* Visit the charming neighborhood of Le Marais, known for its trendy boutiques, art galleries, and historic cafes.
+* Explore the stunning Royal Gardens, a beautiful green oasis in the heart of the Palace of Versailles.
+* Enjoy a romantic dinner at Le Grand Vefour, a historic restaurant in the heart of Paris.
+
+**Budget Breakdown:**
+
+* Accommodation: $2,000 (avg. $222 per night for 9 nights)
+* Food and drink: $1,500 (avg. $167 per day for meals and drinks)
+* Transportation: $200 (avg. $22 per day for metro tickets and Seine River cruise)
+* Activities: $800 (avg. $89 per day for museums, palace visits, and other attractions)
+* Total: $4,300
+
+Note: The budget breakdown is an estimate and may vary depending on individual preferences and exchange rates.
+
+--- Pro Response ---
+**Paris Travel Itinerary (June 1-10, 2025)**
+
+**Accommodations:**
+
+* Hotel Le Walt (4-star): 8, Rue de l'Abbe de l'Epee, 75005 Paris (June 1-5)
+* Hotel Plaza Athenee (5-star): 25, Avenue Montaigne, 75008 Paris (June 6-10)
+
+**Day 1: June 1 - Arrival and Exploration**
+
+* Arrive at Charles de Gaulle Airport
+* Check-in at Hotel Le Walt
+* Visit the nearby Luxembourg Gardens (Garden of Luxembourg)
+* Enjoy a Seine River cruise at sunset
+* Dinner at Le Comptoir du Relais (French bistro)
+
+**Day 2: June 2 - Art Museums**
+
+* Visit the Louvre Museum (open from 9:00 AM)
+* See the Mona Lisa and other famous works
+* Lunch at Le Grand Vefour (historic restaurant)
+* Visit the Orsay Museum (open from 9:30 AM)
+* Dinner at Le Petit Châtelet (French cuisine)
+
+**Day 3: June 3 - Montmartre and Sacre-Coeur**
+
+* Explore the charming neighborhood of Montmartre
+* Visit the Basilica of Sacre-Coeur perched on a hill
+* Lunch at Le Consulat (French bistro)
+* Visit the Musée de Montmartre (open from 10:00 AM)
+* Dinner at Le Grand Colbert (French cuisine)
+
+**Day 4: June 4 - Palace of Versailles**
+
+* Take a day trip to the Palace of Versailles (book tickets in advance)
+* Explore the opulent palace and gardens
+* Lunch at La Petite Venise (French cuisine)
+* Return to Paris in the evening
+* Dinner at Le Jules Verne (French cuisine, Michelin-starred)
+
+**Day 5: June 5 - Notre-Dame and Sainte-Chapelle**
+
+* Visit the iconic Notre-Dame Cathedral (open from 8:00 AM)
+* Explore the nearby Sainte-Chapelle (open from 9:00 AM)
+* Lunch at Le Pied de Cochon (French cuisine)
+* Visit the Musée d'Orsay's Impressionist collection (open from 9:30 AM)
+* Dinner at Le Grand Vefour (historic restaurant)
+
+**Day 6: June 6 - Check-in at Hotel Plaza Athenee**
+
+* Check-out of Hotel Le Walt
+* Check-in at Hotel Plaza Athenee
+* Visit the nearby Eiffel Tower (book tickets in advance)
+* Enjoy a champagne dinner at La Terrasse (hotel's rooftop restaurant)
+
+**Day 7: June 7 - Champs-Élysées and Eiffel Tower**
+
+* Visit the famous Champs-Élysées avenue
+* Explore the Eiffel Tower's grounds and take in the views
+* Lunch at Le Relais de l'Entrecôte (French bistro)
+* Visit the nearby Musée des Arts Décoratifs (open from 11:00 AM)
+* Dinner at Le Meurice (French cuisine, Michelin-starred)
+
+**Day 8: June 8 - Romantic Spots**
+
+* Visit the beautiful Tuileries Garden
+* Explore the charming neighborhood of Le Marais
+* Lunch at Le Loir dans la Theière (French bistro)
+* Visit the Musée Carnavalet (open from 10:00 AM)
+* Dinner at Le Grand Colbert (French cuisine)
+
+**Day 9: June 9 - Markets and Food**
+
+* Visit the famous Marché aux Puces de Saint-Ouen (flea market)
+* Explore the bustling Marché d'Aligre (food and antiques market)
+* Lunch at Le Pied de Cochon (French cuisine)
+* Visit the nearby Musée Rodin (open from 10:00 AM)
+* Dinner at Le Jules Verne (French cuisine, Michelin-starred)
+
+**Day 10: June 10 - Departure**
+
+* Spend the morning shopping for souvenirs or visiting a museum
+* Depart for Charles de Gaulle Airport
+
+**Budget Breakdown:**
+
+* Accommodations (9 nights): €3,500
+* Food and drink: €1,500
+* Transportation: €200
+* Attractions and activities: €800
+* Total: €6,000
+
+**Tips and Recommendations:**
+
+* Book tickets and reservations in advance for popular attractions and restaurants.
+* Consider purchasing a Paris Museum Pass for skip-the-line access to many museums.
+* Don't forget to try some French pastries and desserts, such as croissants, macarons, and crème brûlée.
+* Explore the charming neighborhoods and streets of Paris, such as Montmartre, Le Marais, and Saint-Germain-des-Prés.
+
+--- Comparison ---
+{
+  "flash_latency_ms": 2963.68,
+  "pro_latency_ms": 2245.98,
+  "summary": "Flash responded in 2963.68ms, Pro responded in 2245.98ms. Pro was faster."
+}
+
+[PASSED] - Valid response structure
+   Flash Latency: 2963.68ms
+   Pro Latency: 2245.98ms
+
+======================================================================
+Test 3: Adventure Trip - Valid Request
+======================================================================
+
+Payload:
+{
+  "destination": "Queenstown, New Zealand",
+  "travel_dates": "July 15 - July 25, 2025",
+  "preferences": "Adventure sports, hiking, nature photography"
+}
+
+Status Code: 200
+
+Full Response:
+{
+  "trip_details": {
+    "destination": "Queenstown, New Zealand",
+    "travel_dates": "July 15 - July 25, 2025",
+    "preferences": "Adventure sports, hiking, nature photography"
+  },
+  "flash_response": "**Queenstown Adventure Itinerary (July 15-25, 2025)**\n\n**Day 1: July 15, Arrival in Queenstown**\n\n- Arrive at Queenstown Airport and take a shuttle or taxi to your accommodation.\n- Check-in at **Millbrook Resort**, a 5-star resort offering luxurious rooms, a golf course, and a spa.\n- Spend the afternoon exploring Queenstown's scenic waterfront, visit the Queenstown Gardens, and take in the stunning views of Lake Wakatipu.\n- **Dinner**: Head to **Rata**, a modern New Zealand restaurant serving seasonal dishes. Be sure to book in advance.\n\n**Day 2: July 16, Adventure Sports**\n\n- **Bungee Jumping**: Start the day with a thrilling bungee jump from the Kawarau Bridge, the world's first commercial bungee jumping site.\n- **Skyline Gondola**: Take a gondola ride to the top of Bob's Peak for panoramic views of Queenstown and Lake Wakatipu.\n- **Luge**: Experience the adrenaline rush of luge racing down a winding track.\n- **Dinner**: Enjoy a hearty meal at **Fergburger**, a popular spot for burgers and craft beers.\n\n**Day 3: July 17, Hiking**\n\n- **Ben Lomond Track**: Hike to the summit of Ben Lomond for breathtaking views of Queenstown and Lake Wakatipu.\n- **Gondola**: Take a gondola ride back down to town and enjoy lunch at the Skyline Restaurant.\n- **Wine Tasting**: Visit the Gibbston Valley Winery for a wine tasting and tour.\n- **Dinner**: Dine at **The Grille by Eichardt's**, a fine dining restaurant offering seasonal dishes.\n\n**Day 4: July 18, Nature Photography**\n\n- **Milford Sound**: Take a scenic flight to Milford Sound, a fjord in Fiordland National Park.\n- **Nature Photography**: Capture stunning photos of the sound's towering cliffs, waterfalls, and wildlife.\n- **Day Cruise**: Take a day cruise on Milford Sound to explore the fjord's hidden coves and inlets.\n- **Dinner**: Enjoy a seafood dinner at **The Boatshed**, a waterfront restaurant in Queenstown.\n\n**Day 5: July 19, Adventure Sports**\n\n- **White Water Rafting**: Experience the thrill of white water rafting on the Shotover River.\n- **Zip Line**: Take a zip line tour through the trees for a bird's-eye view of the forest.\n- **Paragliding**: Soar above Queenstown and take in the stunning views of the surrounding mountains.\n- **Dinner**: Dine at **The Waterfront Restaurant**, offering seafood and steak dishes.\n\n**Day 6: July 20, Hiking**\n\n- **Routeburn Track**: Hike a section of the famous Routeburn Track, a 32km trail that takes you through stunning mountain scenery.\n- **Horse Riding**: Take a guided horse ride through the hills and valleys surrounding Queenstown.\n- **Dinner**: Enjoy a meal at **The Grille by Eichardt's**, a fine dining restaurant offering seasonal dishes.\n\n**Day 7: July 21, Relaxation Day**\n\n- **Spa Day**: Treat yourself to a relaxing spa day at the Millbrook Resort spa.\n- **Golf**: Play a round of golf at the Millbrook Resort golf course.\n- **Dinner**: Dine at **Rata**, a modern New Zealand restaurant serving seasonal dishes.\n\n**Day 8: July 22, Nature Photography**\n\n- **Lake Wakatipu**: Take a scenic drive to the shores of Lake Wakatipu and capture stunning photos of the lake's tranquil waters.\n- **Mount Nicholas**: Hike to the summit of Mount Nicholas for breathtaking views of the surrounding mountains and lake.\n- **Dinner**: Enjoy a seafood dinner at **The Boatshed**, a waterfront restaurant in Queenstown.\n\n**Day 9: July 23, Adventure Sports**\n\n- **Skydiving**: Experience the rush of skydiving over Queenstown and take in the stunning views of the surrounding mountains.\n- **Paragliding**: Take a tandem paragliding flight for a bird's-eye view of Queenstown.\n- **Dinner**: Dine at **Fergburger**, a popular spot for burgers and craft beers.\n\n**Day 10: July 24, Hiking**\n\n- **Ben Nevis Track**: Hike to the summit of Ben Nevis, a challenging but rewarding hike with stunning views.\n- **Gondola**: Take a gondola ride back down to town and enjoy lunch at the Skyline Restaurant.\n- **Dinner**: Enjoy a meal at **The Grille by Eichardt's**, a fine dining restaurant offering seasonal dishes.\n\n**Day 11: July 25, Departure**\n\n- Spend the morning shopping for souvenirs or exploring Queenstown's scenic waterfront.\n- Depart for Queenstown Airport and fly out.\n\n**Accommodations**:\n\n* **Millbrook Resort** (July 15-25)\n\n**Dining Recommendations**:\n\n* **Rata**: Modern New Zealand cuisine\n* **Fergburger**: Burgers and craft beers\n* **The Grille by Eichardt's**: Fine dining\n* **The Boatshed**: Seafood and waterfront views\n* **The Waterfront Restaurant**: Seafood and steak dishes\n\n**Activity Recommendations**:\n\n* **Bungee Jumping**: Kawarau Bridge\n* **Skyline Gondola**: Panoramic views of Queenstown and Lake Wakatipu\n* **Luge**: Adrenaline rush down a winding track\n* **Ben Lomond Track**: Hike to the summit for breathtaking views\n* **Milford Sound**: Scenic flight and day cruise\n* **White Water Rafting**: Shotover River\n* **Zip Line**: Tree-top adventure\n* **Paragliding**: Soar above Queenstown\n* **Horse Riding**: Guided horse ride through the hills and valleys\n* **Routeburn Track**: Section hike through stunning mountain scenery\n\nRemember to book activities and restaurants in advance to avoid disappointment. Have a fantastic trip to Queenstown!",
+  "pro_response": "**Day 1: July 15, 2025 - Arrival in Queenstown**\n\n- Arrive at Queenstown Airport\n- Check-in at **Millbrook Resort** (4-star hotel with golf course and scenic views)\n- Explore Queenstown town center and visit the **Queenstown Gardens**\n\n**Day 2: July 16, 2025 - Hiking and Nature Photography**\n\n- Hike the **Ben Lomond Track** (4-5 hours, moderate difficulty)\n- Capture scenic views of Queenstown and its surroundings\n- Dinner at **Rata** (fine dining with a focus on local ingredients)\n\n**Day 3: July 17, 2025 - Adventure Sports**\n\n- Skydiving over Queenstown with **Queenstown Skydiving**\n- Visit the **Skyline Gondola** for panoramic views of the town\n\n**Day 4: July 18, 2025 - Milford Sound**\n\n- Take a full-day **Milford Sound Cruise** with **Mitre Peak Cruises**\n- Explore the fjords and waterfalls of Milford Sound\n- Overnight at **Te Anau** (near Milford Sound)\n\n**Day 5: July 19, 2025 - Te Anau**\n\n- Hike the **Routeburn Track** (4-5 hours, moderate difficulty)\n- Explore the **Te Anau Glowworm Caves**\n- Dinner at **The Moose Bar** (casual dining with a focus on local beer)\n\n**Day 6: July 20, 2025 - Return to Queenstown**\n\n- Return to Queenstown by car or bus\n- Visit the **Onsen Hot Pools** for relaxation\n- Dinner at **The Grille by Eichardt's** (upscale dining with a focus on steak)\n\n**Day 7: July 21, 2025 - Bungee Jumping and Wine Tasting**\n\n- Bungee jump with **AJ Hackett Bungy**\n- Visit the ** Gibbston Valley Winery** for wine tasting\n\n**Day 8: July 22, 2025 - Hiking**\n\n- Hike the **Lake Wakatipu Trail** (4-5 hours, moderate difficulty)\n- Capture scenic views of Lake Wakatipu\n\n**Day 9: July 23, 2025 - Adventure Sports**\n\n- White-water rafting with **Raftabout**\n- Visit the **Queenstown Adventure Centre** for other adventure options\n\n**Day 10: July 24, 2025 - Relaxation**\n\n- Spend the day relaxing at the **Millbrook Resort**\n- Visit the **Queenstown Gardens** for a leisurely walk\n\n**Day 11: July 25, 2025 - Departure**\n\n- Depart from Queenstown Airport",
+  "comparison": {
+    "flash_latency_ms": 2245.32,
+    "pro_latency_ms": 35842.22,
+    "summary": "Flash responded in 2245.32ms, Pro responded in 35842.22ms. Flash was faster."
+  }
+}
+
+--- Flash Response ---
+**Queenstown Adventure Itinerary (July 15-25, 2025)**
+
+**Day 1: July 15, Arrival in Queenstown**
+
+- Arrive at Queenstown Airport and take a shuttle or taxi to your accommodation.
+- Check-in at **Millbrook Resort**, a 5-star resort offering luxurious rooms, a golf course, and a spa.
+- Spend the afternoon exploring Queenstown's scenic waterfront, visit the Queenstown Gardens, and take in the stunning views of Lake Wakatipu.
+- **Dinner**: Head to **Rata**, a modern New Zealand restaurant serving seasonal dishes. Be sure to book in advance.
+
+**Day 2: July 16, Adventure Sports**
+
+- **Bungee Jumping**: Start the day with a thrilling bungee jump from the Kawarau Bridge, the world's first commercial bungee jumping site.
+- **Skyline Gondola**: Take a gondola ride to the top of Bob's Peak for panoramic views of Queenstown and Lake Wakatipu.
+- **Luge**: Experience the adrenaline rush of luge racing down a winding track.
+- **Dinner**: Enjoy a hearty meal at **Fergburger**, a popular spot for burgers and craft beers.
+
+**Day 3: July 17, Hiking**
+
+- **Ben Lomond Track**: Hike to the summit of Ben Lomond for breathtaking views of Queenstown and Lake Wakatipu.
+- **Gondola**: Take a gondola ride back down to town and enjoy lunch at the Skyline Restaurant.
+- **Wine Tasting**: Visit the Gibbston Valley Winery for a wine tasting and tour.
+- **Dinner**: Dine at **The Grille by Eichardt's**, a fine dining restaurant offering seasonal dishes.
+
+**Day 4: July 18, Nature Photography**
+
+- **Milford Sound**: Take a scenic flight to Milford Sound, a fjord in Fiordland National Park.
+- **Nature Photography**: Capture stunning photos of the sound's towering cliffs, waterfalls, and wildlife.
+- **Day Cruise**: Take a day cruise on Milford Sound to explore the fjord's hidden coves and inlets.
+- **Dinner**: Enjoy a seafood dinner at **The Boatshed**, a waterfront restaurant in Queenstown.
+
+**Day 5: July 19, Adventure Sports**
+
+- **White Water Rafting**: Experience the thrill of white water rafting on the Shotover River.
+- **Zip Line**: Take a zip line tour through the trees for a bird's-eye view of the forest.
+- **Paragliding**: Soar above Queenstown and take in the stunning views of the surrounding mountains.
+- **Dinner**: Dine at **The Waterfront Restaurant**, offering seafood and steak dishes.
+
+**Day 6: July 20, Hiking**
+
+- **Routeburn Track**: Hike a section of the famous Routeburn Track, a 32km trail that takes you through stunning mountain scenery.
+- **Horse Riding**: Take a guided horse ride through the hills and valleys surrounding Queenstown.
+- **Dinner**: Enjoy a meal at **The Grille by Eichardt's**, a fine dining restaurant offering seasonal dishes.
+
+**Day 7: July 21, Relaxation Day**
+
+- **Spa Day**: Treat yourself to a relaxing spa day at the Millbrook Resort spa.
+- **Golf**: Play a round of golf at the Millbrook Resort golf course.
+- **Dinner**: Dine at **Rata**, a modern New Zealand restaurant serving seasonal dishes.
+
+**Day 8: July 22, Nature Photography**
+
+- **Lake Wakatipu**: Take a scenic drive to the shores of Lake Wakatipu and capture stunning photos of the lake's tranquil waters.
+- **Mount Nicholas**: Hike to the summit of Mount Nicholas for breathtaking views of the surrounding mountains and lake.
+- **Dinner**: Enjoy a seafood dinner at **The Boatshed**, a waterfront restaurant in Queenstown.
+
+**Day 9: July 23, Adventure Sports**
+
+- **Skydiving**: Experience the rush of skydiving over Queenstown and take in the stunning views of the surrounding mountains.
+- **Paragliding**: Take a tandem paragliding flight for a bird's-eye view of Queenstown.
+- **Dinner**: Dine at **Fergburger**, a popular spot for burgers and craft beers.
+
+**Day 10: July 24, Hiking**
+
+- **Ben Nevis Track**: Hike to the summit of Ben Nevis, a challenging but rewarding hike with stunning views.
+- **Gondola**: Take a gondola ride back down to town and enjoy lunch at the Skyline Restaurant.
+- **Dinner**: Enjoy a meal at **The Grille by Eichardt's**, a fine dining restaurant offering seasonal dishes.
+
+**Day 11: July 25, Departure**
+
+- Spend the morning shopping for souvenirs or exploring Queenstown's scenic waterfront.
+- Depart for Queenstown Airport and fly out.
+
+**Accommodations**:
+
+* **Millbrook Resort** (July 15-25)
+
+**Dining Recommendations**:
+
+* **Rata**: Modern New Zealand cuisine
+* **Fergburger**: Burgers and craft beers
+* **The Grille by Eichardt's**: Fine dining
+* **The Boatshed**: Seafood and waterfront views
+* **The Waterfront Restaurant**: Seafood and steak dishes
+
+**Activity Recommendations**:
+
+* **Bungee Jumping**: Kawarau Bridge
+* **Skyline Gondola**: Panoramic views of Queenstown and Lake Wakatipu
+* **Luge**: Adrenaline rush down a winding track
+* **Ben Lomond Track**: Hike to the summit for breathtaking views
+* **Milford Sound**: Scenic flight and day cruise
+* **White Water Rafting**: Shotover River
+* **Zip Line**: Tree-top adventure
+* **Paragliding**: Soar above Queenstown
+* **Horse Riding**: Guided horse ride through the hills and valleys
+* **Routeburn Track**: Section hike through stunning mountain scenery
+
+Remember to book activities and restaurants in advance to avoid disappointment. Have a fantastic trip to Queenstown!
+
+--- Pro Response ---
+**Day 1: July 15, 2025 - Arrival in Queenstown**
+
+- Arrive at Queenstown Airport
+- Check-in at **Millbrook Resort** (4-star hotel with golf course and scenic views)
+- Explore Queenstown town center and visit the **Queenstown Gardens**
+
+**Day 2: July 16, 2025 - Hiking and Nature Photography**
+
+- Hike the **Ben Lomond Track** (4-5 hours, moderate difficulty)
+- Capture scenic views of Queenstown and its surroundings
+- Dinner at **Rata** (fine dining with a focus on local ingredients)
+
+**Day 3: July 17, 2025 - Adventure Sports**
+
+- Skydiving over Queenstown with **Queenstown Skydiving**
+- Visit the **Skyline Gondola** for panoramic views of the town
+
+**Day 4: July 18, 2025 - Milford Sound**
+
+- Take a full-day **Milford Sound Cruise** with **Mitre Peak Cruises**
+- Explore the fjords and waterfalls of Milford Sound
+- Overnight at **Te Anau** (near Milford Sound)
+
+**Day 5: July 19, 2025 - Te Anau**
+
+- Hike the **Routeburn Track** (4-5 hours, moderate difficulty)
+- Explore the **Te Anau Glowworm Caves**
+- Dinner at **The Moose Bar** (casual dining with a focus on local beer)
+
+**Day 6: July 20, 2025 - Return to Queenstown**
+
+- Return to Queenstown by car or bus
+- Visit the **Onsen Hot Pools** for relaxation
+- Dinner at **The Grille by Eichardt's** (upscale dining with a focus on steak)
+
+**Day 7: July 21, 2025 - Bungee Jumping and Wine Tasting**
+
+- Bungee jump with **AJ Hackett Bungy**
+- Visit the ** Gibbston Valley Winery** for wine tasting
+
+**Day 8: July 22, 2025 - Hiking**
+
+- Hike the **Lake Wakatipu Trail** (4-5 hours, moderate difficulty)
+- Capture scenic views of Lake Wakatipu
+
+**Day 9: July 23, 2025 - Adventure Sports**
+
+- White-water rafting with **Raftabout**
+- Visit the **Queenstown Adventure Centre** for other adventure options
+
+**Day 10: July 24, 2025 - Relaxation**
+
+- Spend the day relaxing at the **Millbrook Resort**
+- Visit the **Queenstown Gardens** for a leisurely walk
+
+**Day 11: July 25, 2025 - Departure**
+
+- Depart from Queenstown Airport
+
+--- Comparison ---
+{
+  "flash_latency_ms": 2245.32,
+  "pro_latency_ms": 35842.22,
+  "summary": "Flash responded in 2245.32ms, Pro responded in 35842.22ms. Flash was faster."
+}
+
+[PASSED] - Valid response structure
+   Flash Latency: 2245.32ms
+   Pro Latency: 35842.22ms
+
+======================================================================
+Test 4: Beach Vacation - Valid Request
+======================================================================
+
+Payload:
+{
+  "destination": "Maldives",
+  "travel_dates": "December 1 - December 10, 2025",
+  "preferences": "Relaxation, snorkeling, luxury resorts"
+}
+
+Status Code: 200
+
+Full Response:
+{
+  "trip_details": {
+    "destination": "Maldives",
+    "travel_dates": "December 1 - December 10, 2025",
+    "preferences": "Relaxation, snorkeling, luxury resorts"
+  },
+  "flash_response": "Welcome to the Maldives, a tropical paradise renowned for its breathtaking beaches, crystal-clear waters, and luxurious resorts. I've crafted a 10-day itinerary for you, tailored to your preferences for relaxation, snorkeling, and luxury. Get ready to unwind and indulge in the ultimate Maldivian experience.\n\n**Day 1: December 1, 2025 - Arrival in Maldives**\n\n* Arrive at Mal\u00e9 International Airport, the capital of Maldives.\n* Take a short speedboat ride to your luxurious resort, Soneva Fushi (5-star).\n* Check-in at the resort and spend the day relaxing at the beach or by the pool.\n* In the evening, enjoy a romantic dinner at the resort's fine dining restaurant, Out of the Blue.\n\n**Day 2: December 2, 2025 - Relaxation Day**\n\n* Spend the day lounging at the beach or by the pool.\n* Treat yourself to a rejuvenating spa treatment at the resort's Six Senses Spa.\n* In the evening, enjoy a sunset cruise around the atoll, with champagne and canap\u00e9s.\n\n**Day 3: December 3, 2025 - Snorkeling Adventure**\n\n* Take a snorkeling trip to the nearby coral reef, where you can see an array of marine life, including manta rays and whale sharks.\n* Visit the famous Banana Reef, a world-renowned snorkeling spot.\n* Return to the resort in the evening and enjoy a beach barbecue dinner.\n\n**Day 4: December 4, 2025 - Water Sports**\n\n* Spend the day engaged in various water sports, such as kayaking, paddleboarding, or jet-skiing.\n* Take a break and enjoy a refreshing cocktail at the resort's beach bar.\n* In the evening, enjoy a seafood dinner at the resort's seafood restaurant, The Crab Shack.\n\n**Day 5: December 5, 2025 - Island Hopping**\n\n* Take a day trip to the nearby island of Fulidhoo, a secluded paradise with pristine beaches and crystal-clear waters.\n* Visit the island's local market and try some traditional Maldivian cuisine.\n* Return to the resort in the evening and enjoy a private dinner on the beach.\n\n**Day 6: December 6, 2025 - Relaxation Day**\n\n* Spend the day relaxing at the resort or take a leisurely stroll around the island.\n* Treat yourself to a rejuvenating massage at the spa.\n* In the evening, enjoy a movie night under the stars at the resort's outdoor cinema.\n\n**Day 7: December 7, 2025 - Fishing Trip**\n\n* Take a fishing trip to the nearby waters, where you can try your hand at catching some of the island's famous seafood.\n* Return to the resort in the evening and enjoy a seafood dinner prepared by the resort's chef.\n\n**Day 8: December 8, 2025 - Snorkeling Adventure**\n\n* Take a snorkeling trip to the nearby coral reef, where you can see an array of marine life, including sea turtles and colorful fish.\n* Visit the famous HP Reef, a world-renowned snorkeling spot.\n* Return to the resort in the evening and enjoy a beach dinner.\n\n**Day 9: December 9, 2025 - Relaxation Day**\n\n* Spend the day relaxing at the resort or take a leisurely stroll around the island.\n* Treat yourself to a rejuvenating spa treatment at the resort's spa.\n* In the evening, enjoy a farewell dinner at the resort's fine dining restaurant.\n\n**Day 10: December 10, 2025 - Departure**\n\n* Spend the morning relaxing at the resort or by the pool.\n* Check-out of the resort and take a speedboat ride back to Mal\u00e9 International Airport.\n* Depart from Mal\u00e9 International Airport, taking back memories of your wonderful Maldivian vacation.\n\n**Accommodations:**\n\n* Soneva Fushi (5-star) - A luxurious resort located on a private island, offering spacious villas with private pools and stunning ocean views.\n\n**Dining Options:**\n\n* Out of the Blue - A fine dining restaurant serving international cuisine with a focus on seafood.\n* The Crab Shack - A seafood restaurant serving fresh seafood and traditional Maldivian cuisine.\n* The Dining Room - A fine dining restaurant serving international cuisine with a focus on seasonal ingredients.\n\n**Activities:**\n\n* Snorkeling trips to the nearby coral reef\n* Water sports, such as kayaking, paddleboarding, or jet-skiing\n* Fishing trip to the nearby waters\n* Island hopping to the nearby island of Fulidhoo\n* Spa treatments at the resort's Six Senses Spa\n* Sunset cruise around the atoll\n* Private beach dinner on the beach\n* Movie night under the stars at the resort's outdoor cinema\n\n**Tips and Recommendations:**\n\n* Make sure to book your resort and activities in advance to avoid availability issues.\n* Pack light and comfortable clothing, as well as sunscreen and a hat to protect yourself from the sun.\n* Don't forget to try some of the local cuisine and drinks, such as fresh coconut water and traditional Maldivian dishes.\n* Take plenty of photos and videos to capture the beauty of the Maldives.\n\nI hope you enjoy your trip to the Maldives!",
+  "pro_response": "**Maldives Travel Itinerary (December 1-10, 2025)**\n\n**Day 1-2 (December 1-2): Arrival and Relaxation**\n\n- Arrive at Mal\u00e9 International Airport\n- Transfer to **Soneva Fushi** (5-star luxury resort) by seaplane\n- Spend the first two days relaxing on the private beach, exploring the resort, and enjoying the spa facilities\n\n**Day 3-4 (December 3-4): Snorkeling and Island Hopping**\n\n- Take a guided snorkeling tour to **HP Reef** to see manta rays and whale sharks\n- Visit **Banana Reef** for a chance to see sharks, rays, and tropical fish\n- Enjoy sunset cocktails at the resort's bar\n\n**Day 5-6 (December 5-6): Water Sports and Leisure**\n\n- Spend the day at the resort's water sports center, trying activities like paddleboarding, kayaking, and sailing\n- Take a sunset cruise to see the stunning Maldivian landscape\n- Enjoy a private beach dinner at the resort\n\n**Day 7-8 (December 7-8): Snorkeling and Local Culture**\n\n- Take a guided snorkeling tour to **Manta Point** to see manta rays\n- Visit the **Grand Friday Mosque** in Mal\u00e9 for a glimpse into Maldivian culture\n- Enjoy a traditional Maldivian dinner at a local restaurant\n\n**Day 9-10 (December 9-10): Relaxation and Departure**\n\n- Spend the last two days relaxing at the resort, enjoying the spa facilities, and exploring the surrounding area\n- Depart for Mal\u00e9 International Airport and head back home\n\n**Accommodations:**\n\n- **Soneva Fushi** (5-star luxury resort) - $1,500 per night\n- **Cheval Blanc Randheli** (5-star luxury resort) - $1,200 per night\n- **Niyama Private Islands Maldives** (5-star luxury resort) - $1,000 per night\n\n**Dining Options:**\n\n- **Soneva Fushi**: The Den, The Crab Shack, and the fine dining restaurant, Out of the Blue\n- **Cheval Blanc Randheli**: Le 1947, the fine dining restaurant, and the beachside restaurant, The Beach\n- **Niyama Private Islands Maldives**: Subsix, the underwater restaurant, and the beachside restaurant, Epicure\n\n**Activities:**\n\n- Snorkeling tours to HP Reef, Banana Reef, Manta Point, and other locations\n- Water sports center activities, such as paddleboarding, kayaking, and sailing\n- Sunset cruise and private beach dinner\n- Visit to the Grand Friday Mosque in Mal\u00e9\n- Traditional Maldivian dinner at a local restaurant\n\n**Budget:**\n\n- Estimated cost for the 10-day trip: $20,000 - $30,000 per person\n- Includes accommodations, meals, activities, and transfers\n\nNote: Prices may vary depending on the season and availability. This itinerary is customizable to suit individual preferences and budget.",
+  "comparison": {
+    "flash_latency_ms": 2967.33,
+    "pro_latency_ms": 1327.27,
+    "summary": "Flash responded in 2967.33ms, Pro responded in 1327.27ms. Pro was faster."
+  }
+}
+
+--- Flash Response ---
+Welcome to the Maldives, a tropical paradise renowned for its breathtaking beaches, crystal-clear waters, and luxurious resorts. I've crafted a 10-day itinerary for you, tailored to your preferences for relaxation, snorkeling, and luxury. Get ready to unwind and indulge in the ultimate Maldivian experience.
+
+**Day 1: December 1, 2025 - Arrival in Maldives**
+
+* Arrive at Malé International Airport, the capital of Maldives.
+* Take a short speedboat ride to your luxurious resort, Soneva Fushi (5-star).
+* Check-in at the resort and spend the day relaxing at the beach or by the pool.
+* In the evening, enjoy a romantic dinner at the resort's fine dining restaurant, Out of the Blue.
+
+**Day 2: December 2, 2025 - Relaxation Day**
+
+* Spend the day lounging at the beach or by the pool.
+* Treat yourself to a rejuvenating spa treatment at the resort's Six Senses Spa.
+* In the evening, enjoy a sunset cruise around the atoll, with champagne and canapés.
+
+**Day 3: December 3, 2025 - Snorkeling Adventure**
+
+* Take a snorkeling trip to the nearby coral reef, where you can see an array of marine life, including manta rays and whale sharks.
+* Visit the famous Banana Reef, a world-renowned snorkeling spot.
+* Return to the resort in the evening and enjoy a beach barbecue dinner.
+
+**Day 4: December 4, 2025 - Water Sports**
+
+* Spend the day engaged in various water sports, such as kayaking, paddleboarding, or jet-skiing.
+* Take a break and enjoy a refreshing cocktail at the resort's beach bar.
+* In the evening, enjoy a seafood dinner at the resort's seafood restaurant, The Crab Shack.
+
+**Day 5: December 5, 2025 - Island Hopping**
+
+* Take a day trip to the nearby island of Fulidhoo, a secluded paradise with pristine beaches and crystal-clear waters.
+* Visit the island's local market and try some traditional Maldivian cuisine.
+* Return to the resort in the evening and enjoy a private dinner on the beach.
+
+**Day 6: December 6, 2025 - Relaxation Day**
+
+* Spend the day relaxing at the resort or take a leisurely stroll around the island.
+* Treat yourself to a rejuvenating massage at the spa.
+* In the evening, enjoy a movie night under the stars at the resort's outdoor cinema.
+
+**Day 7: December 7, 2025 - Fishing Trip**
+
+* Take a fishing trip to the nearby waters, where you can try your hand at catching some of the island's famous seafood.
+* Return to the resort in the evening and enjoy a seafood dinner prepared by the resort's chef.
+
+**Day 8: December 8, 2025 - Snorkeling Adventure**
+
+* Take a snorkeling trip to the nearby coral reef, where you can see an array of marine life, including sea turtles and colorful fish.
+* Visit the famous HP Reef, a world-renowned snorkeling spot.
+* Return to the resort in the evening and enjoy a beach dinner.
+
+**Day 9: December 9, 2025 - Relaxation Day**
+
+* Spend the day relaxing at the resort or take a leisurely stroll around the island.
+* Treat yourself to a rejuvenating spa treatment at the resort's spa.
+* In the evening, enjoy a farewell dinner at the resort's fine dining restaurant.
+
+**Day 10: December 10, 2025 - Departure**
+
+* Spend the morning relaxing at the resort or by the pool.
+* Check-out of the resort and take a speedboat ride back to Malé International Airport.
+* Depart from Malé International Airport, taking back memories of your wonderful Maldivian vacation.
+
+**Accommodations:**
+
+* Soneva Fushi (5-star) - A luxurious resort located on a private island, offering spacious villas with private pools and stunning ocean views.
+
+**Dining Options:**
+
+* Out of the Blue - A fine dining restaurant serving international cuisine with a focus on seafood.
+* The Crab Shack - A seafood restaurant serving fresh seafood and traditional Maldivian cuisine.
+* The Dining Room - A fine dining restaurant serving international cuisine with a focus on seasonal ingredients.
+
+**Activities:**
+
+* Snorkeling trips to the nearby coral reef
+* Water sports, such as kayaking, paddleboarding, or jet-skiing
+* Fishing trip to the nearby waters
+* Island hopping to the nearby island of Fulidhoo
+* Spa treatments at the resort's Six Senses Spa
+* Sunset cruise around the atoll
+* Private beach dinner on the beach
+* Movie night under the stars at the resort's outdoor cinema
+
+**Tips and Recommendations:**
+
+* Make sure to book your resort and activities in advance to avoid availability issues.
+* Pack light and comfortable clothing, as well as sunscreen and a hat to protect yourself from the sun.
+* Don't forget to try some of the local cuisine and drinks, such as fresh coconut water and traditional Maldivian dishes.
+* Take plenty of photos and videos to capture the beauty of the Maldives.
+
+I hope you enjoy your trip to the Maldives!
+
+--- Pro Response ---
+**Maldives Travel Itinerary (December 1-10, 2025)**
+
+**Day 1-2 (December 1-2): Arrival and Relaxation**
+
+- Arrive at Malé International Airport
+- Transfer to **Soneva Fushi** (5-star luxury resort) by seaplane
+- Spend the first two days relaxing on the private beach, exploring the resort, and enjoying the spa facilities
+
+**Day 3-4 (December 3-4): Snorkeling and Island Hopping**
+
+- Take a guided snorkeling tour to **HP Reef** to see manta rays and whale sharks
+- Visit **Banana Reef** for a chance to see sharks, rays, and tropical fish
+- Enjoy sunset cocktails at the resort's bar
+
+**Day 5-6 (December 5-6): Water Sports and Leisure**
+
+- Spend the day at the resort's water sports center, trying activities like paddleboarding, kayaking, and sailing
+- Take a sunset cruise to see the stunning Maldivian landscape
+- Enjoy a private beach dinner at the resort
+
+**Day 7-8 (December 7-8): Snorkeling and Local Culture**
+
+- Take a guided snorkeling tour to **Manta Point** to see manta rays
+- Visit the **Grand Friday Mosque** in Malé for a glimpse into Maldivian culture
+- Enjoy a traditional Maldivian dinner at a local restaurant
+
+**Day 9-10 (December 9-10): Relaxation and Departure**
+
+- Spend the last two days relaxing at the resort, enjoying the spa facilities, and exploring the surrounding area
+- Depart for Malé International Airport and head back home
+
+**Accommodations:**
+
+- **Soneva Fushi** (5-star luxury resort) - $1,500 per night
+- **Cheval Blanc Randheli** (5-star luxury resort) - $1,200 per night
+- **Niyama Private Islands Maldives** (5-star luxury resort) - $1,000 per night
+
+**Dining Options:**
+
+- **Soneva Fushi**: The Den, The Crab Shack, and the fine dining restaurant, Out of the Blue
+- **Cheval Blanc Randheli**: Le 1947, the fine dining restaurant, and the beachside restaurant, The Beach
+- **Niyama Private Islands Maldives**: Subsix, the underwater restaurant, and the beachside restaurant, Epicure
+
+**Activities:**
+
+- Snorkeling tours to HP Reef, Banana Reef, Manta Point, and other locations
+- Water sports center activities, such as paddleboarding, kayaking, and sailing
+- Sunset cruise and private beach dinner
+- Visit to the Grand Friday Mosque in Malé
+- Traditional Maldivian dinner at a local restaurant
+
+**Budget:**
+
+- Estimated cost for the 10-day trip: $20,000 - $30,000 per person
+- Includes accommodations, meals, activities, and transfers
+
+Note: Prices may vary depending on the season and availability. This itinerary is customizable to suit individual preferences and budget.
+
+--- Comparison ---
+{
+  "flash_latency_ms": 2967.33,
+  "pro_latency_ms": 1327.27,
+  "summary": "Flash responded in 2967.33ms, Pro responded in 1327.27ms. Pro was faster."
+}
+
+[PASSED] - Valid response structure
+   Flash Latency: 2967.33ms
+   Pro Latency: 1327.27ms
+
+======================================================================
+Test 5: Missing Field - Invalid Request
+======================================================================
+
+Payload:
+{
+  "destination": "London, UK",
+  "travel_dates": "August 1 - August 7, 2025"
+}
+
+Status Code: 422
+
+[WARNING] Validation Error:
+{
+  "detail": [
+    {
+      "type": "missing",
+      "loc": [
+        "body",
+        "preferences"
+      ],
+      "msg": "Field required",
+      "input": {
+        "destination": "London, UK",
+        "travel_dates": "August 1 - August 7, 2025"
+      }
+    }
+  ]
+}
+
+[PASSED] - Expected validation error
+
+======================================================================
+Test Summary
+======================================================================
+
+Total Tests: 5
+Passed: 5
+Failed: 0
+Success Rate: 100.0%
+
+[NOTE] Additional hidden testcases will be used for final evaluation!
+   Make sure your implementation is robust and handles edge cases.
+
+
+Full test results saved to: output.txt
+
+All tests passed!
+
