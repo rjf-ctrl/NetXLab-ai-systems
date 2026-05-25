@@ -14,3 +14,4 @@
 - break problems into small chunks so that wach prompt is one chunk and its reasoning ability is improved
 
 for reference: https://cloud.google.com/discover/what-is-prompt-engineering
+list of prompt engineering methods: https://www.promptingguide.ai/techniques
